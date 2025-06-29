@@ -5,10 +5,13 @@ public class Main {
 
         //Задача 1
         int[] wastes = {5496, 3984, 4068, 8046, 9582};
+        int sum = 0;
 
         for (int i = 0; i < wastes.length; i++) {
-            System.out.println("Сумма трат за месяц составила " + wastes[i] + " рублей");
+            sum = sum + wastes[i];
         }
+
+        System.out.println("Сумма трат за месяц составила " + sum + " рублей");
 
         System.out.println(" ");
 
